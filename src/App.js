@@ -1,11 +1,11 @@
 import React, {Fragment} from "react";
-
+import Navbar from "./Component/Navbar/Navbar";
 
 import "./App.css"
 function App() {
   return (
     <Fragment>
-      <h1 className="text-primary">Hello This is Router Test</h1>
+      <Navbar/>
     </Fragment>
   );
 }
