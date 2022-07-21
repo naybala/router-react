@@ -1,12 +1,13 @@
-import React, {Fragment} from "react";
-import Navbar from "./Component/Navbar/Navbar";
-
-import "./App.css"
+import React from "react";
+import "./App.css";
+import MainRouter from "./Component/Router/MainRouter";
 function App() {
   return (
-    <Fragment>
-      <Navbar/>
-    </Fragment>
-  );
+    <div className="App">
+      <MainRouter/>
+    </div>
+  )
 }
+
+
 export default App;
