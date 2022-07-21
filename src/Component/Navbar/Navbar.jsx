@@ -22,7 +22,7 @@ const Navbar = () => {
                 <div className="container">
                     <img
                         src={imgurl}
-                        className="img-fluid rounded-2"
+                        className="img-fluid rounded-2 img-logo"
                         alt=""
                     />
                     <button
