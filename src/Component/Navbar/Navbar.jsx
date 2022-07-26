@@ -10,10 +10,13 @@ const Navbar = () => {
     }
     const navActive = (e) => {
         const nav = document.querySelectorAll(".nav-link");
-        nav.forEach(function (btn) {
-            btn.classList.remove("active");
-        });
-        e.target.classList.add("active");
+        const id = e.target.dataset.id;
+        if (id) {
+            nav.forEach(function (btn) {
+                btn.classList.remove("active");
+            });
+            e.target.classList.add("active");
+        }
 
     }
     return (
